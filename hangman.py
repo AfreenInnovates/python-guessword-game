@@ -1,6 +1,6 @@
 import random
 
-def coding_language_function():
+def coding_language_function(): # this loop is entered when the user enters 1 to guess a coding language 
     codelanguage_guesses = 8
     coding_languages = ['java', 'python', 'javascript', 'ruby', 'r', 'julia', 'php', 'pascal', 'c++', 'cobol', 'c#', 'c']
     print("Our random coding word starts with the letter 'j', 'p', 'c' or 'r'. ")
@@ -25,11 +25,11 @@ def coding_language_function():
             elif codelanguage_guesses > 0 and codelanguage_guesses <= 8:
                 print("Guess again :)")
     if codelanguage_guesses > 0:
-        print("It took you", 8-codelanguage_guesses, "guesses to get the coding language name right.")
+        print("It took you", 8-codelanguage_guesses, "guesses to get the coding language name right.") # this line is printed only if the user played the game (i.e. the guesses are more than 0) if 0 guesses then it does not print it. 
         print("Thank you so much for playing the game!")
 
 
-def company_names_functions():
+def company_names_functions():  # this loop is entered when the user enters 2 to guess a company name  
     company_guesses = 15
     company_names = ['google', 'goldman sachs', 'gucci', 'gap', 'facebook', 'fedex', 'ferrari', 'adidas', 'amazon', 'apple', 'netflix', 'nike', 'nvidia', 'paypal', 'porche', 'prada']
     print("Our random company name starts with the letter 'g', 'f', 'a', 'p' or 'n'.")
@@ -55,11 +55,11 @@ def company_names_functions():
             elif company_guesses > 0 and company_guesses <= 15:
                 print("Guess again :)")
     if company_guesses > 0:
-        print("It took you", 15 - company_guesses, "guesses to get the company name right.")
+        print("It took you", 15 - company_guesses, "guesses to get the company name right.") # this line is printed only if the user played the game (i.e. the guesses are more than 0) if 0 guesses then it does not print it. 
         print("Thank you so much for playing the game!")
 
 
-def animal_names_function():
+def animal_names_function():  # this loop is entered when the user enters 3 to guess an animal 
     animal_guesses = 20
     animals = ['cheetah', 'crocodile', 'crab', 'camel', 'bear', 'buffalo', 'bull', 'dog', 'deer', 'coyote', 'hippopotamus', 'horse', 'hyena', 'lion', 'loepard', 'llma', 'frog', 'fox', 'flamingo']
     print("Our random animal name starts with the letter 'c', 'b', 'd', 'h', 'l', 'h' or 'f'.")
@@ -85,8 +85,8 @@ def animal_names_function():
             elif animal_guesses > 0 and animal_guesses <= 20:
                 print("Guess again :)")
     if animal_guesses > 0:
-        print("It took you", 20 - animal_guesses, "guesses to get the animal name right.")
-        print("Thank you so much for playing the game!")
+        print("It took you", 20 - animal_guesses, "guesses to get the animal name right.") # this line is printed only if the user played the game (i.e. the guesses are more than 0) if 0 guesses then it does not print it. 
+        print("Thank you so much for playing the game!") 
 
 
 
